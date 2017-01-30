@@ -1,0 +1,21 @@
+==================================================
+
+	Student Name: Yang Guo
+
+	Assignment #2 	 Particles Everywhere
+	
+	CPSC 8170
+==================================================
+
+
+Description
+==================================================
+	Main program is ParticlesSystem.cpp
+
+	Usage: ./ParticlesSystem [parameters-file]	
+
+	Read parameters from file parameters.
+	Use key 'S' to start.
+	Use key 'q' to quit.
+	Use key 'l' to enable light. // do_light() function is from the class material of CPSC6050 by Geist
+	Use mouse to toggle view point.

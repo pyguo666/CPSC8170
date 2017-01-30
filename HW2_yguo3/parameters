@@ -1,0 +1,2 @@
+2        5       1      0    1    0     0      0        0       0.8            0.1    
+Ball.x, Ball.y, Ball.z, G.x, G.y, G.z, Wind.x, Wind.y, Wind.z, CRestitution, TimeStep

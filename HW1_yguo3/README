@@ -1,0 +1,19 @@
+==================================================
+
+	Student Name: Yang Guo
+
+	Assignment #1 	 bouncing ball in box
+	
+	CPSC 8170
+==================================================
+
+
+Description
+==================================================
+	Main program is BouncingBall.cpp
+
+	Usage: ./BouncingBall [parameters-file]	
+
+	Read parameters from file parameters.
+	Use key 'S' to start or restart.
+	Use mouse to toggle view point.
