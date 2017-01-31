@@ -1,0 +1,20 @@
+==================================================
+
+	Student Name: Yang Guo
+
+	Assignment #4 	 Springy Meshes
+	
+	CPSC 8170
+==================================================
+
+
+Description
+==================================================
+	Main program is SpringyMesh.cpp
+
+	Usage: ./SpringyMesh [parameters-file]	
+
+	Read parameters from file parameters.
+	Use key 'S' to start or restart.
+	Use key 'p' to switch particle kinds(ball or bat).
+	Use mouse to toggle view point.

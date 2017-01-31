@@ -1,0 +1,2 @@
+90     30                 35              20           10                1          0.01      0.2
+Mass, VelocityOrig.x, VelocityOrig.y, VelocityOrig.z, Viscosity, CRestitution, TimeStep,   ParticleRadius

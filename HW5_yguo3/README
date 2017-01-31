@@ -1,0 +1,20 @@
+==================================================
+
+	Student Name: Yang Guo
+
+	Assignment #5 	 Rigid Body
+	
+	CPSC 8170
+==================================================
+
+
+Description
+==================================================
+	Main program is RigidBody.cpp
+
+	Usage: ./RigidBody 	
+
+	Read parameters from file parameters.
+	Use key 'S' to start.
+	Use key 'q' to quit.
+	Use mouse to toggle view point.

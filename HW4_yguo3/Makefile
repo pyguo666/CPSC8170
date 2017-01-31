@@ -1,6 +1,6 @@
 #----------------------------------------------
-#    Example Makefile for compiling a program that uses
-#    the Matrix and Vector classes
+#  Makefile for compiling C++ programs of BouncingBall
+#  Student Name: Yang Guo
 #----------------------------------------------
 #
 #  Programmer: Donald House
@@ -22,9 +22,9 @@ else
   endif
 endif
 
-HFILES 	= Matrix.${H} Vector.${H} Utility.${H} Camera.${H}
-OFILES 	= Matrix.o Vector.o Utility.o Camera.o
-PROJECT = BouncingBall
+HFILES 	= Matrix.${H} Vector.${H} Utility.${H} Camera.${H} Particle.${H} gauss.${H} Strut.${H} Face.${H}
+OFILES 	= Matrix.o Vector.o Utility.o Camera.o Particle.o gauss.o Strut.o Face.o
+PROJECT = SpringyMeshV2
 
 ${PROJECT}:	${PROJECT}.o $(OFILES)
 	${CC} $(CFLAGS) -o ${PROJECT} ${PROJECT}.o $(OFILES) $(LDFLAGS)
@@ -43,6 +43,18 @@ Vector.o: Vector.${C} Vector.${H} Utility.${H}
 
 Utility.o: Utility.${C} Utility.${H}
 	${CC} $(CFLAGS) -c Utility.${C}
+
+gauss.o: gauss.${C} gauss.${H}
+	${CC} $(CFLAGS) -c gauss.${C}
+
+Particle.o: Particle.${C} Particle.${H}
+	${CC} $(CFLAGS) -c Particle.${C}
+
+Strut.o: Strut.${C} Strut.${H}
+	${CC} $(CFLAGS) -c Strut.${C}
+
+Face.o: Face.${C} Face.${H}
+	${CC} $(CFLAGS) -c Face.${C}
 
 debug:
 	make 'DFLAGS = /usr/lib/debug/malloc.o'
